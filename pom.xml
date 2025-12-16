@@ -10,9 +10,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ryan</groupId>
-    <artifactId>hpe-asmt</artifactId>
+    <artifactId>hpeApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hpe-asmt</name>
+    <name>hpeApp</name>
     <packaging>war</packaging>
 
     <properties>
@@ -106,13 +106,13 @@
     </dependencies>
 
     <build>
-        <finalName>hpe-asmt</finalName>
+        <finalName>hpeApp</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.ryan.app.HpeAsmtApplication</mainClass>
+                    <mainClass>com.ryan.app.HpeApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
